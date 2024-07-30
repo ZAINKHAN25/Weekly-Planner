@@ -43,12 +43,15 @@ body::-webkit-scrollbar-thumb:active {
 }
 .heading {
   color: #005583;
+  text-align: center;
 }
 
 .Des-Todo-Goals-Div {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   gap: 20px;
   padding: 20px;
@@ -56,7 +59,8 @@ body::-webkit-scrollbar-thumb:active {
 
 .descriptionDiv {
   display: flex;
-  justify-content: center;
+  height: 600px;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   flex: 1;
@@ -66,15 +70,93 @@ body::-webkit-scrollbar-thumb:active {
   background-color: rgba(255, 255, 255, 30%);
   box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 70%);
   cursor: pointer;
-  scale: .93;
-  transition: .6s;
+  scale: 0.95;
+  transition: 0.6s;
 }
 
-.descriptionDiv:hover{
-    background-color: rgba(255, 255, 255, 40%);
-    scale: 1;
+.descriptionDiv:hover {
+  background-color: rgba(255, 255, 255, 50%);
+  scale: 1;
+}
+
+.card {
+  min-height: 300px;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #005583;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 30%);
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 70%);
+  cursor: pointer;
+  scale: 0.9;
+  transition: 0.4s;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 50%);
+  scale: 1;
+}
+
+.card ul{
+  list-style: decimal;
+  padding: 20px;
+  text-align: left;
+}
+
+.card button{
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 15px;
+  color: red;
+  padding: 5px 10px;
+  font-size: normal;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card button:hover{
+  background-color: red;
+  color: white;
 }
 
 .para-of-week-description {
   margin: 10px auto;
+}
+
+.goals-achievments-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.week-of-div {
+  color: #005583;
+  font-weight: bold;
+}
+
+#num-of-week-input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  border-bottom: 2px dashed #005583;
+  font-weight: bold;
+  text-align: center;
+}
+
+.days-div{
+  display: flex;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }

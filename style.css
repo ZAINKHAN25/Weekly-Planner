@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, serif;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #005583;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #00b8e7;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:active{
+    background: #0087a8;
+}
+
+.Page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/862/653/non_2x/water-splash-background-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.Des-Todo-Goals-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.descriptionDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}

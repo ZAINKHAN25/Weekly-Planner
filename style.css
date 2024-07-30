@@ -10,21 +10,21 @@ body {
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar{
-    width: 10px;
+body::-webkit-scrollbar {
+  width: 10px;
 }
 
 body::-webkit-scrollbar-track {
-    background: #005583;
+  background: #005583;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #00b8e7;
-    border-radius: 10px;
+  background: #00b8e7;
+  border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb:active{
-    background: #0087a8;
+body::-webkit-scrollbar-thumb:active {
+  background: #0087a8;
 }
 
 .Page {
@@ -41,12 +41,17 @@ body::-webkit-scrollbar-thumb:active{
   background-position: center center;
   background-attachment: fixed;
 }
+.heading {
+  color: #005583;
+}
 
 .Des-Todo-Goals-Div {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 20px;
+  padding: 20px;
 }
 
 .descriptionDiv {
@@ -55,4 +60,21 @@ body::-webkit-scrollbar-thumb:active{
   align-items: center;
   flex-direction: column;
   flex: 1;
+  border: 2px solid #005583;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 30%);
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 70%);
+  cursor: pointer;
+  scale: .93;
+  transition: .6s;
+}
+
+.descriptionDiv:hover{
+    background-color: rgba(255, 255, 255, 40%);
+    scale: 1;
+}
+
+.para-of-week-description {
+  margin: 10px auto;
 }

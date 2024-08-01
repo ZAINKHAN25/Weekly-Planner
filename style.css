@@ -160,3 +160,24 @@ body::-webkit-scrollbar-thumb:active {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.modal-body{
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 85, 131, 30%);
+  overflow: hidden;
+}
+
+.none {
+  display: none;
+}
+
+.overflowHidden {
+  overflow: hidden !important;
+}

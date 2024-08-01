@@ -101,13 +101,13 @@ body::-webkit-scrollbar-thumb:active {
   scale: 1;
 }
 
-.card ul{
+.card ul {
   list-style: decimal;
   padding: 20px;
   text-align: left;
 }
 
-.card button{
+.card button {
   background-color: transparent;
   border: 2px solid red;
   border-radius: 15px;
@@ -116,10 +116,10 @@ body::-webkit-scrollbar-thumb:active {
   font-size: normal;
   font-weight: bold;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.card button:hover{
+.card button:hover {
   background-color: red;
   color: white;
 }
@@ -152,7 +152,7 @@ body::-webkit-scrollbar-thumb:active {
   text-align: center;
 }
 
-.days-div{
+.days-div {
   display: flex;
   padding: 20px 10px;
   justify-content: center;
@@ -161,7 +161,7 @@ body::-webkit-scrollbar-thumb:active {
   gap: 20px;
 }
 
-.modal-body{
+.modal-body {
   position: fixed;
   width: 100vw;
   min-height: 100vh;
@@ -175,7 +175,7 @@ body::-webkit-scrollbar-thumb:active {
   overflow: hidden;
 }
 
-.modal-card{
+.modal-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,7 @@ body::-webkit-scrollbar-thumb:active {
   width: 80vw;
   min-height: 80vh;
   min-width: 200px;
-  background-color: rgba(255,255,255,50%) !important;
+  background-color: rgba(255, 255, 255, 50%) !important;
   border: 1px solid #005583;
   border-radius: 15px;
   padding: 10px 20px;
@@ -193,9 +193,9 @@ body::-webkit-scrollbar-thumb:active {
 .addinput {
   outline: none;
   background-color: transparent;
-  padding: 5px 10px;
+  padding: 10px 20px;
   border-radius: 15px;
-  border: 2px dashed #005583;
+  border: 1px solid #005583;
   font-weight: bold;
 }
 
@@ -206,3 +206,38 @@ body::-webkit-scrollbar-thumb:active {
 .overflowHidden {
   overflow: hidden !important;
 }
+
+.input-div {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+}
+
+.addinput {
+  flex: 1;
+}
+
+.add-icon-span {
+  border-radius: 50%;
+  background-color: transparent;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid #005583;
+  color: #005583;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: .5s;
+}
+
+.add-icon-span:hover {
+  background-color: #005583;
+  color: white;
+}
+

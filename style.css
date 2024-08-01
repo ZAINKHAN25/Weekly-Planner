@@ -228,7 +228,8 @@ body::-webkit-scrollbar-thumb:active {
   font-weight: bold;
   border: 2px solid #005583;
   color: #005583;
-  padding: 10px;
+  width: 36px;
+  height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;

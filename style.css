@@ -170,8 +170,33 @@ body::-webkit-scrollbar-thumb:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 85, 131, 30%);
+  background-color: rgba(0, 85, 131, 50%);
+  padding: 15px;
   overflow: hidden;
+}
+
+.modal-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  min-height: 80vh;
+  min-width: 200px;
+  background-color: rgba(255,255,255,50%) !important;
+  border: 1px solid #005583;
+  border-radius: 15px;
+  padding: 10px 20px;
+  z-index: 2;
+}
+
+.addinput {
+  outline: none;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px dashed #005583;
+  font-weight: bold;
 }
 
 .none {
